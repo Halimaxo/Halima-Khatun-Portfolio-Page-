@@ -26,11 +26,12 @@ nav ul{
 }
 
 nav a {
-    color:rgb(162, 95, 106)
+    color:rgb(162, 95, 106);
+    text-decoration: none;
 }
 
 nav a:hover {
-    color:rgb(234, 93, 116)
+    color:rgb(234, 93, 116);
 }
 .header nav ul li {
     margin-left: 25px;
