@@ -1,5 +1,12 @@
+.main-top-header {
+    border: 1px solid rgb(255, 221, 227);
+    background-color: rgb(255, 221, 227);
+    color:rgb(162, 95, 106)
+}
+
 .about-me {
     display:flex;
+    justify-content: space-around;
     padding:5px;
 }
 
@@ -8,6 +15,18 @@
     height:100%;
     border: 1px solid pink;
     margin-bottom: 10px;
+    margin-right:10px;
+}
+
+.contact-information {
+    margin-left:10px;
+    border: 1px solid rgb(255, 221, 227);
+    color:rgb(162, 95, 106);
+    padding: 3px;
+}
+
+.contact-information-title {
+    text-decoration: underline;
 }
 
 .about-me-text {
@@ -19,6 +38,8 @@
     border: 1px solid rgb(255, 221, 227);
     margin-left: 10px;
     margin-bottom: 10px;;
+    color: rgb(162, 95, 106);
+    margin-right:10px;
 }
 
 .projects {
@@ -44,4 +65,16 @@
 
 .project-3 {
     background-color: rgb(255, 221, 227);
+}
+
+.project-1-text {
+    color: rgb(162, 95, 106);
+}
+
+.project-2-text {
+    color: rgb(162, 95, 106);
+}
+
+.project-3-text {
+    color: rgb(162, 95, 106);
 }
